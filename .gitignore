@@ -1,0 +1,40 @@
+view/.DS_Store
+view/node_modules
+view/dist
+view/.idea
+view/.vscode
+# local env files
+view/.env.local
+view/.env.*.local
+view/.env
+# Log files
+view/npm-debug.log*
+view/yarn-debug.log*
+view/yarn-error.log*
+
+# Editor directories and files
+api/.idea
+api/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.idea
+.vscode
+
+package-lock.json
+api/node_modules
+api/public/hot
+api/public/storage
+api/storage/*.key
+api/vendor
+api/.env
+api/.env.backup
+api/.phpunit.result.cache
+api/Homestead.json
+api/Homestead.yaml
+api/npm-debug.log
+api/yarn-error.log
+# Created by .ignore support plugin (hsz.mobi)

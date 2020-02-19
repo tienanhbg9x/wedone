@@ -1,0 +1,33 @@
+<?php
+return[
+    'mysql'=>[
+        'users'=>[
+            'id'=>[
+                'type'=>'int',
+                'column'=>'id'
+            ],
+            'active'=>[
+                'type'=>'int',
+                'column'=>'active'
+            ]
+        ],
+        'project_role'=>[
+            'id'=>[
+                'type'=>'int',
+                'column'=>'ppr_id'
+            ],
+        ],
+        'roles'=>[
+            'id'=>[
+                'type'=>'int',
+                'column'=>'id'
+            ]
+        ],
+        'permissions'=>[
+            'id'=>[
+                'type'=>'int',
+                'column'=>'id'
+            ]
+        ]
+    ]
+];
